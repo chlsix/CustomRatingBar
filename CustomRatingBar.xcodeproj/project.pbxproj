@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE11113E1C438DE500B3F0FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11113D1C438DE500B3F0FF /* AppDelegate.swift */; };
+		CE1111401C438DE500B3F0FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11113F1C438DE500B3F0FF /* ViewController.swift */; };
+		CE1111431C438DE500B3F0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1111411C438DE500B3F0FF /* Main.storyboard */; };
+		CE1111451C438DE500B3F0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1111441C438DE500B3F0FF /* Assets.xcassets */; };
+		CE1111481C438DE500B3F0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1111461C438DE500B3F0FF /* LaunchScreen.storyboard */; };
+		CE1111501C438E6A00B3F0FF /* CustomRatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11114F1C438E6A00B3F0FF /* CustomRatingBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE11113A1C438DE500B3F0FF /* CustomRatingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomRatingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE11113D1C438DE500B3F0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE11113F1C438DE500B3F0FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE1111421C438DE500B3F0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1111441C438DE500B3F0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE1111471C438DE500B3F0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE1111491C438DE500B3F0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE11114F1C438E6A00B3F0FF /* CustomRatingBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRatingBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1111371C438DE500B3F0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1111311C438DE500B3F0FF = {
+			isa = PBXGroup;
+			children = (
+				CE11113C1C438DE500B3F0FF /* CustomRatingBar */,
+				CE11113B1C438DE500B3F0FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE11113B1C438DE500B3F0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE11113A1C438DE500B3F0FF /* CustomRatingBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE11113C1C438DE500B3F0FF /* CustomRatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE11113D1C438DE500B3F0FF /* AppDelegate.swift */,
+				CE11113F1C438DE500B3F0FF /* ViewController.swift */,
+				CE11114F1C438E6A00B3F0FF /* CustomRatingBar.swift */,
+				CE1111411C438DE500B3F0FF /* Main.storyboard */,
+				CE1111441C438DE500B3F0FF /* Assets.xcassets */,
+				CE1111461C438DE500B3F0FF /* LaunchScreen.storyboard */,
+				CE1111491C438DE500B3F0FF /* Info.plist */,
+			);
+			path = CustomRatingBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1111391C438DE500B3F0FF /* CustomRatingBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE11114C1C438DE500B3F0FF /* Build configuration list for PBXNativeTarget "CustomRatingBar" */;
+			buildPhases = (
+				CE1111361C438DE500B3F0FF /* Sources */,
+				CE1111371C438DE500B3F0FF /* Frameworks */,
+				CE1111381C438DE500B3F0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomRatingBar;
+			productName = CustomRatingBar;
+			productReference = CE11113A1C438DE500B3F0FF /* CustomRatingBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1111321C438DE500B3F0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ShenSu;
+				TargetAttributes = {
+					CE1111391C438DE500B3F0FF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ANN7A3F6FB;
+					};
+				};
+			};
+			buildConfigurationList = CE1111351C438DE500B3F0FF /* Build configuration list for PBXProject "CustomRatingBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1111311C438DE500B3F0FF;
+			productRefGroup = CE11113B1C438DE500B3F0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1111391C438DE500B3F0FF /* CustomRatingBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1111381C438DE500B3F0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1111481C438DE500B3F0FF /* LaunchScreen.storyboard in Resources */,
+				CE1111451C438DE500B3F0FF /* Assets.xcassets in Resources */,
+				CE1111431C438DE500B3F0FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1111361C438DE500B3F0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1111501C438E6A00B3F0FF /* CustomRatingBar.swift in Sources */,
+				CE1111401C438DE500B3F0FF /* ViewController.swift in Sources */,
+				CE11113E1C438DE500B3F0FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE1111411C438DE500B3F0FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1111421C438DE500B3F0FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE1111461C438DE500B3F0FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1111471C438DE500B3F0FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE11114A1C438DE500B3F0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE11114B1C438DE500B3F0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE11114D1C438DE500B3F0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomRatingBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShenSu.CustomRatingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE11114E1C438DE500B3F0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomRatingBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShenSu.CustomRatingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1111351C438DE500B3F0FF /* Build configuration list for PBXProject "CustomRatingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE11114A1C438DE500B3F0FF /* Debug */,
+				CE11114B1C438DE500B3F0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE11114C1C438DE500B3F0FF /* Build configuration list for PBXNativeTarget "CustomRatingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE11114D1C438DE500B3F0FF /* Debug */,
+				CE11114E1C438DE500B3F0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1111321C438DE500B3F0FF /* Project object */;
+}
