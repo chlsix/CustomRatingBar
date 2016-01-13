@@ -24,7 +24,7 @@ class CustomRatingBar: UIView {
             if 0 > rating {rating = 0}
             else if ratingMax < rating {rating = ratingMax}
             //回调给代理
-            delegate?.ratingDidChange(self, rating: rating / (ratingMax / CGFloat(starNums)))
+            delegate?.ratingDidChange(self, rating: rating)
             self.setNeedsLayout()
         }
     }
